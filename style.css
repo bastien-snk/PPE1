@@ -1,0 +1,305 @@
+header {
+	text-decoration: none;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #F1F1F1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 44%;
+	padding-right: 44%;
+	position: absolute;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+ul {
+
+}
+
+li {
+	margin-right: 20px;
+	list-style: none;
+}
+
+li::before {
+	content: "•";
+	color: #E89B13;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
+}
+
+.statsplayer {
+	text-align: left;
+	margin-left: 100px;
+	padding-left: 300px;
+}
+
+.level2 {
+	margin-left: 30px;
+	color: white;
+}
+
+.divider {
+	position: relative;
+	height: 1px;
+	padding-bottom: 10px;
+}
+
+.div-transparent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(255,255,255), transparent);
+}
+
+.div-arrow-down:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(255,255,255);
+	border-right: 1px solid rgb(255,255,255);
+}
+
+footer a:hover {
+	color: #B95033;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+body {
+	background: url("./images/background-lava.jpg");
+	text-align: center;
+	/*Ce overflow est pour enlever la barre de scroll horizontale et activer la verticale */
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.maintext {
+	filter: blur(0px);
+	color: white;
+	background: rgba(0,0, 0, 0.5);
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.textindex {
+	text-align: left;
+	text-justify: auto;
+}
+
+.menu {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+	padding: 12px;
+	font-size: 20px;
+}
+
+.menu a {
+	padding: 8px;
+}
+
+.menu a:hover {
+	color: #B95033;
+}
+
+.menufooter a:hover {
+	color: #B95033;
+}
+
+.logo {
+	width: 4%;
+}
+
+.logoandfavicon {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.copyrights {
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+}
+
+.imagright {
+	float: left;
+	overflow: hidden;
+	height: 10%;
+	width: 25%;
+	padding-left: 75px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.imagleft {
+	float: right;
+	overflow: hidden;
+	height: 10%;
+	width: 25%;
+	padding-right: 75px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.imagemain {
+	margin-top: 10px;
+	margin-right: 20px;
+	padding-left: 10px;
+	height: 10%;
+	width: 25%;
+	float: right;
+}
+
+.player-text {
+	color: #E89B13;
+}
+
+.button {
+	background-color: rgba(0,0, 0, 0.0);
+	border-radius:42px;
+	border:3px solid #B1B2B0;
+	display:inline-block;
+	cursor:pointer;
+	color:#B1B2B0;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	outline: none;
+	padding:14px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button:hover {
+	background-color: rgba(255,255, 255, 0.2);
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.button-login {
+	background-color: rgba(0,0, 0, 0.0);
+	border-radius:42px;
+	border:3px solid #B1B2B0;
+	display:inline-block;
+	cursor:pointer;
+	color:#B1B2B0;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	outline: none;
+	padding:14px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 500px;
+
+}
+
+.nickname {
+	color: #E89B13;
+}
+
+.infos {
+	color: grey;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-weight: 27px;
+}
+
+.money {
+	color: #2EDE0E;
+}
+
+.form {
+	padding-top: 100px;
+}
+
+.inputinscription {
+	background-color: rgba(0,0, 0, 0.0);
+	border-radius:42px;
+	border:3px solid #B1B2B0;
+	display:inline-block;
+	outline: none;
+	color: white;
+	font-family:Arial;
+	font-size:14px;
+	padding:7px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.inputinscription:hover {
+	border:3px solid #B95033;
+}
+
+option {
+	color: black;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+h1 {
+	font-size: 25px;
+
+}
+
+h2 {
+	text-decoration: none;
+	font-size: 15px;
+	text-justify: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 20px;
+}
+
+h3 {
+	text-decoration: none;
+	font-size: 15px;
+	text-justify: inter-word;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
